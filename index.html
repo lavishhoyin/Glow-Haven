@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glow Haven</title>
+    <!-- Bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Custom css-->
+    <link rel="stylesheet" href="main.css">
+    <!-- Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- this is my navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-bg py-3">
+            <div class="container">
+                <a class="navbar-brand text-light" href="./index.html">Glow Haven</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./index.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./makeup.html">Makeup</a></li>
+                                <li><a class="dropdown-item" href="./Perfume.html">Perfumes</a></li>
+                                <li><a class="dropdown-item" href="./Skincare.html">Skincare</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./cosmetic.html">Cosmetics</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Looking For Something"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- this is the hero section-->
+    <main class="d-flex flex-column justify-content-center align-items-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide container-fluid" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./pics/face masks.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./pics/gloss.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/[Collection].jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- our customers base-->
+        <section class="container-fluid">
+            <marquee behavior="scroll" direction="ltr">
+                <div class="container my-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h2>Customer Base </h2>
+                            <p class="fs-1 text-center fw-bold">
+                                15000+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h2>Satisfied Client</h2>
+                            <p class="fs-1 text-center fw-bold">
+                                1000+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h2>Desatisfied Client</h2>
+                            <p class="fs-1 text-center fw-bold">
+                                1000+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h2>Happy Client</h2>
+                            <p class="fs-1 text-center fw-bold">
+                                5000+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </marquee>
+        </section>
+
+        <!-- About section-->
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="text-center">
+                        <h2 class="text-success">About Us</h2>
+                        <p class="text-body-secondary">
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <p>
+                            Welcome To Our Online Store Glow Haven!
+                            We're passionate about helping you discover the best skincare, makeup, and fragrances to
+                            enhance your natural beauty.
+                            Our curated collection features top-quality products, from luxurious skincare essentials to
+                            vibrant makeup must-haves and captivating perfumes.
+                            We believe everyone deserves to feel confident and radiant, and we're here to provide you
+                            with an exceptional shopping experience.
+                            Explore our selection, and let us help you find your perfect beauty essentials!
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="./pics/5aa849a2-8d93-4719-bd4a-954b98a7ec74.jpg" class="img-fluid rounded-2 glow"
+                            alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- the card section-->
+            <section>
+                <div class="container mt-5">
+                    <div class="container d-flex flex-column justify-content-center align-items-center my-3 py-1">
+                        <h2 class="text-success">Our Products</h2>
+                        <p>
+                            Discover a world of beauty with our carefully curated selection of skincare, makeup, and
+                            fragrances.
+                            We offer personalized consultations, expert advice, and a seamless shopping experience to
+                            help you find your perfect products.
+                            Enjoy fast shipping, easy returns, and exclusive offers. Let us help you look and feel your
+                            best!
+
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="pics/882fb03d-019b-4f0f-9980-4582c2262de4.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Unleash your inner artist with our makeup selection.
+                                            Discover foundations, eyeshadows, lipsticks, and tools.
+                                            Create stunning looks with our premium cosmetics.
+
+                                        </p>
+                                        <a href="#" class="btn pink">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="pics/64cce58b-3d6c-4731-b50f-77b082c4d5ef.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Discover our skincare essentials.
+                                            Cleansers, moisturizers and serums for healthy, glowing skin.
+                                            Achieve your radiant complexion with our high-quality products.
+
+                                        </p>
+                                        <a href="#" class="btn pink">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="pics/download (4).jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Discover our exquisite fragrance collection, featuring a
+                                            variety of perfumes, colognes, and body sprays.
+                                            Find your signature scent and express your unique style."</p>
+                                        <a href="#" class="btn pink">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="pics/3020460b-c84e-4feb-a7a8-61aa9c25a557.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Treat your skin with our selection of masks and treatments.
+                                            Address specific concerns and enhance your skincare routine with our
+                                            effective products. </p>
+                                        <a href="#" class="btn pink">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- our team-->
+                <div class="container my-5">
+                    <div class="d-flex flex-column justify-content-center align-items-center my-3">
+                        <h2> Meet Our Team</h2>
+                        <p>
+                            Meet our talented team members, each with their unique skills and experiences.
+                            Discover the individuals who work hard to bring you exceptional quality and customer
+                            satisfaction.
+
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Assets/headshots.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Olulola Angela</h5>
+                                    <p class="card-text">CEO/MD</p>
+                                    <a href="#" class="btn pink">More About Them</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Assets/18a9ffb7-1777-44b9-85e7-7cbce9022da0.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">James Peters</h5>
+                                    <p class="card-text">Head Of Marketing</p>
+                                    <a href="#" class="btn pink">More About Them</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Assets/3e14285e-b3f9-46ca-86b8-7dadf9c44bbc.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ibiwari Isabella</h5>
+                                    <p class="card-text">Asst.MD</p>
+                                    <a href="#" class="btn pink">More About Them</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="container-fluid bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <a href="#">Logo</a>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h2>Quick Link</h2>
+                    <div>
+                        <a class="d-block text-decoration-none text-light" href="#">Home</a>
+                        <a class="d-block text-decoration-none text-light" href="#">About Us</a>
+                        <a class="d-block text-decoration-none text-light" href="#">Our Services</a>
+                        <a class="d-block text-decoration-none text-light" href="#">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h2>Social Links</h2>
+                    <a class="text-light" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a class="text-light ms-1 text-decoration-none" href="https://www.twitter.com"><i
+                            class="bi bi-twitter-x"></i></a>
+                    <a class="text-light ms-1 text-decoration-none" href="https://www.whatsapp.com"></a><i
+                        class="bi bi-whatsapp"></i></a>
+                    <a class="text-light ms-1 text-decoration-none" href="https://www.instagram.com"><i
+                            class="bi bi-instagram"></i></a>
+                    <a class="text-light ms-1 text-decoration-none" href="https://www.tiktok.com"></a><i
+                        class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

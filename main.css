@@ -1,0 +1,37 @@
+:root{
+    --primary: #FFC0CB !important;
+    --secondary: #800080 !important;
+}
+
+.nav-bg {
+    background-color: var(--secondary) !important;
+}
+
+.carousel-item{
+    height: 100vh !important;
+}
+
+.pink {
+    background-color: var(--primary);
+}
+.pink:hover {
+    outline:2px solid var(--primary);
+    color: var(
+
+    )
+}
+
+.card > img{
+    height: 200px !important;
+}
+
+.glow{
+    width: 450px;
+    height: 300px;
+}
+
+
+
+.footer{
+    background-color: #800080  !important;
+}
