@@ -1,6 +1,6 @@
 :root{
     --primary: #FFC0CB !important;
-    --secondary: #800080 !important;
+    --secondary: #f30862f8 !important;
 }
 
 .nav-bg {
@@ -33,5 +33,5 @@
 
 
 .footer{
-    background-color: #800080  !important;
+    background-color: (--secondary)  !important;
 }
